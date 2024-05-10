@@ -1,13 +1,23 @@
-import { Box } from '@mui/material'
+import { Avatar, Box } from '@mui/material'
 import React from 'react'
+import Post from './Post'
+import { Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9 } from '../StaticImages'
 
 function Feed() {
   return (
     <Box
-      bgcolor="pink"
       flex={4}
       p={2}
-    >Feed</Box>
+    >
+      <Post imageUrl={Image1} />
+      <Post imageUrl={Image2} />
+      <Post imageUrl={Image3} />
+      <Post imageUrl={Image4} />
+      <Post imageUrl={Image5} />
+      <Post imageUrl={Image6} />
+      <Post imageUrl={Image7} />
+      <Post imageUrl={Image8} />
+    </Box>
   )
 }
 

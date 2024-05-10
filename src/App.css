@@ -6,3 +6,17 @@
   text-decoration: none;
   list-style: none;
 }
+
+.sideBarMain {
+  background-color: white;
+  padding: 50px;
+}
+
+.FixedBox {
+  position: sticky;
+  top: 0;
+}
+
+.FixedBox.FixedBox1 {
+  top: -20%;
+}
